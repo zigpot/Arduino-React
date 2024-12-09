@@ -1,0 +1,40 @@
+# Node.js dependencies for React frontend
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+
+# Arduino build files in AnalogInOutSerial
+/AnalogInOutSerial/*.bin
+/AnalogInOutSerial/*.eep
+/AnalogInOutSerial/*.elf
+/AnalogInOutSerial/*.hex
+/AnalogInOutSerial/*.o
+/AnalogInOutSerial/*.out
+
+# Logs
+/logs/
+/frontend/logs/
+/AnalogInOutSerial/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Git metadata
+.git/
+
